@@ -5,14 +5,14 @@
  * Time: 2:45 PM
  */
 
-namespace expitrans\mvccore;
+namespace expitrans\expimvc;
 
 
 /**
  * Class View
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore
+ * @package expitrans\expimvc
  */
 class View
 {

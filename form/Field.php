@@ -5,10 +5,10 @@
  * Time: 7:05 AM
  */
 
-namespace expitrans\mvccore\form;
+namespace expitrans\expimvc\form;
 
 
-use expitrans\mvccore\Model;
+use expitrans\expimvc\Model;
 
 /**
  * Class Field
@@ -25,7 +25,7 @@ class Field extends BaseField
     /**
      * Field constructor.
      *
-     * @param \expitrans\mvccore\Model $model
+     * @param \expitrans\expimvc\Model $model
      * @param string          $attribute
      */
     public function __construct(Model $model, string $attribute)

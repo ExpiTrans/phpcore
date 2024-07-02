@@ -5,9 +5,9 @@
  * Time: 10:01 AM
  */
 
-namespace expitrans\mvccore;
+namespace expitrans\expimvc;
 
-use expitrans\mvccore\exception\NotFoundException;
+use expitrans\expimvc\exception\NotFoundException;
 
 /**
  * Class Router
@@ -50,7 +50,7 @@ class Router
         }
         if (is_array($callback)) {
             /**
-             * @var $controller \expitrans\mvccore\Controller
+             * @var $controller \expitrans\expimvc\Controller
              */
             $controller = new $callback[0];
             $controller->action = $callback[1];

@@ -5,14 +5,14 @@
  * Time: 10:53 AM
  */
 
-namespace expitrans\mvccore;
+namespace expitrans\expimvc;
 
 
 /**
  * Class Response
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore
+ * @package expitrans\expimvc
  */
 class Response
 {

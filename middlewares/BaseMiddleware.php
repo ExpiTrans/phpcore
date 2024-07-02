@@ -5,14 +5,14 @@
  * Time: 11:33 AM
  */
 
-namespace expitrans\mvccore\middlewares;
+namespace expitrans\expimvc\middlewares;
 
 
 /**
  * Class BaseMiddleware
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore
+ * @package expitrans\expimvc
  */
 abstract class BaseMiddleware
 {

@@ -5,10 +5,10 @@
  * Time: 7:05 AM
  */
 
-namespace expitrans\mvccore\form;
+namespace expitrans\expimvc\form;
 
 
-use expitrans\mvccore\Model;
+use expitrans\expimvc\Model;
 
 /**
  * Class Form

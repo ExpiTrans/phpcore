@@ -5,9 +5,9 @@
  * Time: 9:57 AM
  */
 
-namespace expitrans\mvccore;
+namespace expitrans\expimvc;
 
-use expitrans\mvccore\db\Database;
+use expitrans\expimvc\db\Database;
 
 /**
  * Class Application

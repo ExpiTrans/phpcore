@@ -5,14 +5,14 @@
  * Time: 11:43 AM
  */
 
-namespace expitrans\mvccore\exception;
+namespace expitrans\expimvc\exception;
 
 
 /**
  * Class NotFoundException
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore\exception
+ * @package expitrans\expimvc\exception
  */
 class NotFoundException extends \Exception
 {

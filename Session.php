@@ -5,14 +5,14 @@
  * Time: 11:18 PM
  */
 
-namespace expitrans\mvccore;
+namespace expitrans\expimvc;
 
 
 /**
  * Class Session
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore
+ * @package expitrans\expimvc
  */
 class Session
 {

@@ -5,16 +5,16 @@
  * Time: 9:19 AM
  */
 
-namespace expitrans\mvccore\db;
+namespace expitrans\expimvc\db;
 
-use expitrans\mvccore\Application;
-use expitrans\mvccore\Model;
+use expitrans\expimvc\Application;
+use expitrans\expimvc\Model;
 
 /**
  * Class DbModel
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore
+ * @package expitrans\expimvc
  */
 abstract class DbModel extends Model
 {

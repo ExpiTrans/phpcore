@@ -5,14 +5,14 @@
  * Time: 3:49 PM
  */
 
-namespace expitrans\mvccore\form;
+namespace expitrans\expimvc\form;
 
 
 /**
  * Class TextareaField
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore\form
+ * @package expitrans\expimvc\form
  */
 class TextareaField extends BaseField
 {

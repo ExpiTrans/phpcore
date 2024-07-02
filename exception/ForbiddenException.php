@@ -5,16 +5,16 @@
  * Time: 11:35 AM
  */
 
-namespace expitrans\mvccore\exception;
+namespace expitrans\expimvc\exception;
 
 
-use expitrans\mvccore\Application;
+use expitrans\expimvc\Application;
 
 /**
  * Class ForbiddenException
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore\exception
+ * @package expitrans\expimvc\exception
  */
 class ForbiddenException extends \Exception
 {

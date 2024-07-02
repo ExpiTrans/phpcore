@@ -5,17 +5,17 @@
  * Time: 11:33 AM
  */
 
-namespace expitrans\mvccore\middlewares;
+namespace expitrans\expimvc\middlewares;
 
 
-use expitrans\mvccore\Application;
-use expitrans\mvccore\exception\ForbiddenException;
+use expitrans\expimvc\Application;
+use expitrans\expimvc\exception\ForbiddenException;
 
 /**
  * Class AuthMiddleware
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore
+ * @package expitrans\expimvc
  */
 class AuthMiddleware extends BaseMiddleware
 {

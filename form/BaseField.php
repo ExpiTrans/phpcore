@@ -5,16 +5,16 @@
  * Time: 3:49 PM
  */
 
-namespace expitrans\mvccore\form;
+namespace expitrans\expimvc\form;
 
 
-use expitrans\mvccore\Model;
+use expitrans\expimvc\Model;
 
 /**
  * Class BaseField
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore\form
+ * @package expitrans\expimvc\form
  */
 abstract class BaseField
 {
@@ -26,7 +26,7 @@ abstract class BaseField
     /**
      * Field constructor.
      *
-     * @param \expitrans\mvccore\Model $model
+     * @param \expitrans\expimvc\Model $model
      * @param string          $attribute
      */
     public function __construct(Model $model, string $attribute)

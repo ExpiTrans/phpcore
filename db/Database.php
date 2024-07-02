@@ -5,16 +5,16 @@
  * Time: 8:09 AM
  */
 
-namespace expitrans\mvccore\db;
+namespace expitrans\expimvc\db;
 
 
-use expitrans\mvccore\Application;
+use expitrans\expimvc\Application;
 
 /**
  * Class Database
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore
+ * @package expitrans\expimvc
  */
 class Database
 {

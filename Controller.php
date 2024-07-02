@@ -5,14 +5,14 @@
  * Time: 8:43 AM
  */
 
-namespace expitrans\mvccore;
+namespace expitrans\expimvc;
 
-use expitrans\mvccore\middlewares\BaseMiddleware;
+use expitrans\expimvc\middlewares\BaseMiddleware;
 /**
  * Class Controller
  *
  * @author  Irish <irish@expitrans.com>
- * @package expitrans\mvccore
+ * @package expitrans\expimvc
  */
 class Controller
 {
@@ -20,7 +20,7 @@ class Controller
     public string $action = '';
 
     /**
-     * @var \expitrans\mvccore\BaseMiddleware[]
+     * @var \expitrans\expimvc\BaseMiddleware[]
      */
     protected array $middlewares = [];
 
@@ -40,7 +40,7 @@ class Controller
     }
 
     /**
-     * @return \expitrans\mvccore\middlewares\BaseMiddleware[]
+     * @return \expitrans\expimvc\middlewares\BaseMiddleware[]
      */
     public function getMiddlewares(): array
     {
