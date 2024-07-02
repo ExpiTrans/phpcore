@@ -1,0 +1,15 @@
+{
+	"name": "expitrans/mvccore",
+	"authors": [
+		{
+			"name": "Irish Arbo",
+			"email": "irish@expitrans.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"expitrans\\mvccore\\": "."
+		}
+	},
+	"require": {}
+}
